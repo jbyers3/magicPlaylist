@@ -1,0 +1,7 @@
+import csv
+genre = raw_input("What genre do you prefer?: ")
+with open('Unified.csv', 'rt') as f:
+    reader = csv.reader(f)
+    for column in reader:
+        if column[1] == genre:
+            print(column[3])
