@@ -1,2 +1,2 @@
 # magicPlaylist
-Output music recommendatiosn (python)
+Output music recommendations (python)
