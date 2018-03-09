@@ -1,7 +1,13 @@
+#Imports unfied csv
 import csv
+
+#Creates variable name genre and takes any input (raw_input)
 genre = raw_input("What genre do you prefer?: ")
 with open('Unified.csv', 'rt') as f:
+
+#Reads CSV file
     reader = csv.reader(f)
+#Searches specific column in csv and checks for user input in said column
     for column in reader:
         if column[1] == genre:
             print(column[3])
