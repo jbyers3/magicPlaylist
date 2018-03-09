@@ -1,7 +1,4 @@
 # magicPlaylist
-Output music recommendations (python)
-
-
 Step 1: Download 10,000 song Dataset from https://labrosa.ee.columbia.edu/millionsong/   Note: 1,000,000 song dataset must be requested from Academic institutions listed on Labrosa. 
 
 Step 2: Download and install DB Brower
